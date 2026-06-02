@@ -8,13 +8,28 @@
 </head>
 <body>
 
-  <header class="hero">
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <header id="home" class="hero">
     <h1>Sruthi Avadhanula</h1>
     <h2>Senior QA Automation Engineer</h2>
     <p>
       11 years of experience in UI Automation, API Automation, Performance Testing,
       Functional Testing, and CI/CD-driven QA delivery.
     </p>
+
     <div class="buttons">
       <a href="Sruthi_Avadhanula_QAAutomation.pdf" target="_blank">View Resume</a>
       <a href="https://github.com/avadhanulasruthi-ui" target="_blank">GitHub</a>
@@ -22,121 +37,185 @@
     </div>
   </header>
 
-  <section>
+  <!-- About Section -->
+  <section id="about">
     <h2>About Me</h2>
     <p>
       I am a results-driven Full Stack QA Engineer based in Dubai, UAE. I specialize in
-      Selenium WebDriver, Java, Cucumber BDD, REST Assured, Postman, MUnit, Jenkins,
-      GitHub Actions, JMeter, and SQL-based validation.
+      designing scalable automation frameworks, validating APIs, integrating automated
+      tests into CI/CD pipelines, and improving release quality through reliable test
+      automation.
+    </p>
+    <p>
+      My experience spans Payroll, E-commerce, Healthcare, Finance, Insurance, Retail,
+      and Airline domains. I have independently managed end-to-end QA operations and
+      contributed to faster regression cycles, improved test coverage, and better release
+      confidence.
     </p>
   </section>
 
-  <section>
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-      <div>
-        <h3>UI Automation</h3>
-        <p>Selenium WebDriver, Java, Cucumber BDD, TestNG, POM, Maven</p>
-      </div>
-      <div>
-        <h3>API Testing</h3>
-        <p>REST Assured, Postman, MUnit, RAML/OAS, JSON/XML Validation</p>
-      </div>
-      <div>
-        <h3>CI/CD & DevOps</h3>
-        <p>Jenkins Pipeline, GitHub Actions, Git, Slack Integration</p>
-      </div>
-      <div>
-        <h3>Performance & Database</h3>
-        <p>JMeter, SQL, Data Validation, Load Testing</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
+  <!-- Experience Section -->
+  <section id="experience">
     <h2>Professional Experience</h2>
 
     <div class="experience">
       <h3>Senior Software Engineer – QA | EPAM Systems</h3>
-      <p>May 2024 – September 2025</p>
+      <p class="duration">May 2024 – September 2025</p>
       <ul>
         <li>Automated E-commerce and retail applications using Selenium WebDriver with Java.</li>
-        <li>Built BDD scenarios using Cucumber integrated with Jenkins CI/CD.</li>
+        <li>Built BDD test scenarios using Cucumber integrated with Jenkins CI/CD.</li>
         <li>Performed MuleSoft API testing using MUnit in Anypoint Studio.</li>
+        <li>Validated RAML/OAS specifications and DataWeave transformations.</li>
       </ul>
     </div>
 
     <div class="experience">
       <h3>Senior Software Engineer – QA | Ness Technologies / ADP</h3>
-      <p>January 2020 – May 2024</p>
+      <p class="duration">January 2020 – May 2024</p>
       <ul>
         <li>Managed end-to-end QA operations as the sole QA resource.</li>
-        <li>Designed and automated 500+ test cases using Cucumber BDD and POM.</li>
+        <li>Designed and automated 500+ test cases using Cucumber BDD and Page Object Model.</li>
         <li>Executed API testing using Postman and REST Assured.</li>
+        <li>Performed database validations using SQL queries across multiple environments.</li>
+        <li>Engineered Slack-GitHub integration for real-time test execution summaries.</li>
       </ul>
     </div>
 
     <div class="experience">
       <h3>Senior Software Engineer – QA | ZenQ</h3>
-      <p>August 2016 – November 2019</p>
+      <p class="duration">August 2016 – November 2019</p>
       <ul>
         <li>Automated enterprise web applications using Selenium WebDriver and TestNG.</li>
-        <li>Developed reusable automation utilities and scripts.</li>
-        <li>Supported performance testing using JMeter.</li>
+        <li>Developed reusable automation scripts and utility functions.</li>
+        <li>Supported performance testing activities using JMeter.</li>
       </ul>
     </div>
 
     <div class="experience">
       <h3>Software Engineer – QA | ValueLabs</h3>
-      <p>July 2014 – August 2016</p>
+      <p class="duration">July 2014 – August 2016</p>
       <ul>
         <li>Performed functional, regression, smoke, and UAT testing.</li>
         <li>Created test cases, test plans, and logged defects using JIRA and Bugzilla.</li>
+        <li>Coordinated with stakeholders for release sign-off.</li>
       </ul>
     </div>
   </section>
 
-  <section>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+      <div>
+        <h3>UI Automation</h3>
+        <p>Selenium WebDriver, Java, Cucumber BDD, TestNG, Page Object Model, Maven</p>
+      </div>
+
+      <div>
+        <h3>API Testing</h3>
+        <p>REST Assured, Postman, MUnit, MuleSoft, RAML/OAS, JSON/XML Validation</p>
+      </div>
+
+      <div>
+        <h3>CI/CD & DevOps</h3>
+        <p>Jenkins Pipeline, GitHub Actions, Git, GitHub, Build Automation, Slack Integration</p>
+      </div>
+
+      <div>
+        <h3>Performance Testing</h3>
+        <p>JMeter, Load Testing, Stress Testing, Performance Analysis</p>
+      </div>
+
+      <div>
+        <h3>Database & Programming</h3>
+        <p>Core Java, SQL, Database Validation, Data Integrity Testing</p>
+      </div>
+
+      <div>
+        <h3>Testing Types</h3>
+        <p>Regression Testing, Smoke Testing, Integration Testing, End-to-End Testing, Functional Testing</p>
+      </div>
+
+      <div>
+        <h3>Methodologies</h3>
+        <p>Agile, Scrum, SDLC, STLC, TDD, BDD</p>
+      </div>
+
+      <div>
+        <h3>Domain Expertise</h3>
+        <p>Payroll, E-commerce, Healthcare, Finance, Insurance, Retail, Airline</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
     <h2>Featured Projects</h2>
 
     <div class="project">
       <h3>Selenium Cucumber BDD Automation Framework</h3>
       <p>
         Java-based UI automation framework using Selenium WebDriver, Cucumber BDD,
-        TestNG, Maven, and Page Object Model.
+        TestNG, Maven, and Page Object Model. Designed for reusable test scripts,
+        structured reporting, and CI/CD execution.
       </p>
     </div>
 
     <div class="project">
       <h3>REST Assured API Automation Framework</h3>
       <p>
-        API automation framework for REST services with JSON/XML validation,
-        authentication handling, and reusable request utilities.
+        API automation framework for RESTful services with JSON/XML validation,
+        authentication handling, reusable request utilities, and automated test reporting.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>MuleSoft MUnit API Testing Sample</h3>
+      <p>
+        Sample MuleSoft testing project covering MUnit test cases, RAML/OAS validation,
+        DataWeave transformation checks, and API quality verification.
       </p>
     </div>
 
     <div class="project">
       <h3>JMeter Performance Testing Demo</h3>
       <p>
-        Sample performance testing project with load scenarios, response time analysis,
-        and summary reporting.
+        Performance testing demo project with load scenarios, stress testing approach,
+        response time analysis, throughput validation, and summary reporting.
       </p>
     </div>
   </section>
 
-  <section>
+  <!-- Certifications Section -->
+  <section id="certifications">
     <h2>Certifications</h2>
+
     <ul>
       <li>ISTQB Foundation Level Certification</li>
       <li>Generative AI: Prompt Engineering Basics Certification</li>
     </ul>
   </section>
 
-  <footer>
-    <p>Contact: <a href="mailto:avadhanulasruthi@gmail.com">avadhanulasruthi@gmail.com</a></p>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+
     <p>
-      <a href="https://github.com/avadhanulasruthi-ui" target="_blank">GitHub Profile</a>
+      I am open to Senior QA Automation Engineer, SDET, API Automation Engineer,
+      Test Automation Engineer, and QA Lead opportunities in Dubai, UAE.
     </p>
+
+    <div class="contact-links">
+      <p>Email: <a href="mailto:avadhanulasruthi@gmail.com">avadhanulasruthi@gmail.com</a></p>
+      <p>Location: Dubai, UAE</p>
+      <p>GitHub: <a href="https://github.com/avadhanulasruthi-ui" target="_blank">github.com/avadhanulasruthi-ui</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Sruthi Avadhanula. All Rights Reserved.</p>
   </footer>
 
 </body>
